@@ -16,9 +16,51 @@
   height: 50%;
   width: 50%;
   box-shadow: 4px 10px 20px 13px #ccc;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .show {
   bottom: 0;
-  transition: bottom 1.5s;
+  transition: bottom 1s;
+}
+
+.modal-text {
+  resize: none;
+  background-color: transparent;
+  width: 90%;
+  /* height: 50px; */
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.icon-list {
+  position: absolute;
+  bottom: 10px;
+  background-color: purple;
+  width: 75%;
+  height: 65%;
+  overflow: scroll;
+  padding: 5px;
+}
+
+.icon-list > div {
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.icon-list > div:hover {
+  background-color: antiquewhite;
+}
+
+.icon-list img {
+  width: 50px;
+  height: 50px;
 }
