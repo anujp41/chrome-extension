@@ -1,0 +1,10 @@
+.modal {
+  background-color: lavenderblush;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  width: 50%;
+  box-shadow: 4px 10px 20px 13px #ccc;
+}
