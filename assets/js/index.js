@@ -20,7 +20,7 @@
         googleDiv.className = 'google-doc';
         const googleImg = document.createElement('img');
         const googleDocName = document.createElement('figcaption');
-        googleImg.src = '/assets/icons/doc.png';
+        googleImg.src = 'assets/icons/doc.png';
         googleDocName.textContent = `Google Document ${i}`;
         googleDiv.appendChild(googleImg);
         googleDiv.appendChild(googleDocName);
